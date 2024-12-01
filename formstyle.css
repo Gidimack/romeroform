@@ -1,0 +1,150 @@
+header {
+    border: 3px solid #f3caf3;
+    background-color: purple;
+    border-radius: 10px;
+    border-style: inset; 
+    line-height: 3px; 
+    color: white; 
+    text-transform: capitalize;
+    text-align: center; 
+    font-size: 20px; 
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    background-image: linear-gradient(270deg, grey, purple);
+    color: black;
+}
+
+.body2 {
+    /* background-color: white; */
+    color: black;
+    /* padding-block-start: 50px;
+    padding-block-end: 50x; */
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 2px solid black;
+    background-image: url(./images/new\ 1.jpg);
+}
+
+.formtitle {
+    text-align: center;
+    color: purple;
+    background-color: white;
+    padding: 10px 5px;
+    font-style: italic;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+    background-color: purple;
+    text-shadow: 2px 2px black;
+}
+
+form {
+    background-color: purple;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: cursive;
+    border: 5px solid;
+    border-style: outset;
+    border-color: black;
+    border-radius: 12px;
+}
+
+.formfields {
+    color: white;
+    padding: 5px;
+    border-radius: 6px solid white;
+    margin: 8px 0;
+}
+
+.form-body .label-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+input {
+    width: 100%;
+    color: #555;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border: 3px solid grey;
+}
+
+input[type=text]:focus {
+    border: 3px solid;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  input[type=radio] {
+    margin-top: -1px;
+  }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(216, 119, 216);
+    border: 2px white;
+    border-style: outset;
+    color: white;
+    width: 100%;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+input[type=button], input[type=submit]:hover {
+    background-color: purple;
+}
+
+.horizontal-group .left{
+    float:left;
+    width:49%;
+  }
+  
+  .horizontal-group .right{
+    float:right;
+    width:49%;
+  }
+  
+  input[type="file"] {
+    outline: none;
+    cursor:pointer;
+    font-size: 17px;
+  }
+
+  .form-group{
+    margin-bottom:20px;
+  }
