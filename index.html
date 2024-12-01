@@ -1,1 +1,142 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width-device-width, initial-scale-1,0"/>
+        <title>Romero Priya Form</title>
+        <link rel="stylesheet" href="./formstyle.css"/>
+    </head>
+    <body>
+        <div class="body2">
+        <header class="form-header">
+            <h2>ROMERO REGISTRATION FORM</h2>
+        </header>
+
+        <main>
+            <p class="formtitle">Please fill the form below to get on the Romero's train:</p>
+            <!-- Form Area -->
+             <section>
+                <form>
+                    <div class="formfields">
+                        <label for="firstname" class="label-title">First Name *</label>
+                        <br/>
+                        <input type="text" name="firstname" placeholder="your first name" required/>
+                    </div>
+                    <div class="formfields">
+                        <label for="lastname" class="label-title">Last Name *</label>
+                        <br/>
+                        <input type="text" name="lastname" placeholder="your Surname here" required/>
+                    </div>
+
+                    <div class="formfields">
+                        <label for="Emailaddress" class="label-title">Email Address *</label>
+                        <br/>
+                        <input type="text" name="email address" placeholder="youremail@example.com" required/>
+                    </div>
+
+                    <div class="formfields">
+                        <label for="gender" class="label-title">Gender</label>
+                        <br/>
+                        <select name="gender">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Prefer not to say</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formfields">
+                    <div >
+                        <label for="age" class="label-title">Age</label>
+                        <input type="date"/><br/><br/>
+                    </div>
+
+                    <!-- Passwrod and confirm password -->
+        <div class="horizontal-group">
+            <div class="form-group left">
+              <label for="password" class="label-title">Password *</label>
+              <input type="password" id="password" class="form-input" placeholder="enter your password" required="required">
+            </div>
+            <div class="form-group right">
+              <label for="confirm-password" class="label-title">Confirm Password *</label>
+              <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required">
+            </div>
+          </div>
+
+          <!-- Laptop and medium of hearing about us  -->
+          <div class="horizontal-group">
+            <div class="form-group left">
+              <label for="laptop" class="label-title">Do you have a laptop?</label>
+              <br/>
+                        <select name="laptop">
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                        </select>
+                        </div>
+                        <div class="form-group right">
+                            <label for="medium" class="label-title">How did you hear about us</label>
+                            <select name="medium">
+                                <option value="">Whatsapp</option>
+                                <option value="">X (Twitter)</option>
+                                <option value="">Google</option>
+                                <option value="">via a Friend</option>
+                                </select>
+                        </div>
+                        </div>
+
+            <!-- Status and Course -->
+        <div class="horizontal-group">
+            <div class="form-group left" >
+              <label class="label-title">Employment Status</label>
+              <select class="form-input" id="level" >
+                <option value="B">Employed</option>
+                <option value="I">Self-employed</option>
+                <option value="A">Unemployed</option>
+              </select>
+            </div>
+
+            <div class="form-group right" >
+                <label class="label-title">Preferred Course</label>
+                <select class="form-input" id="level" >
+                  <option value="B">Backend Development</option>
+                  <option value="I">Cybersecurity</option>
+                  <option value="B">Data Analysis</option>
+                  <option value="I">Front End development</option>
+                  <option value="A">Product Design</option>
+                  <option value="A">Software Development</option>
+                </select>
+            </div>
+        </div>
+
+          <!-- <div class="horizontal-group">
+                        <label for="laptop" class="label-title">Do you have a laptop</label>
+                        <br/>
+                        <input type="radio" name="laptop" class="form-input"/><option value="laptop">Yes</option>
+                        <input type="radio" name="laptop" class="form-input"/><option value="laptop">No</option>
+                        </div> -->
+
+                        <!-- <div class="formfields">
+                            <label for="medium" class="label-title">How did you hear about us</label>
+                            <br/>
+                            <input type="checkbox" id="Whatsapp"/><option value="Whatsapp">Whatsapp</option>
+                            <input type="checkbox" id="Twitter"/><option value="Twitter">Twitter</option>
+                            <input type="checkbox" id="Google"/><option value="google">Google</option>
+                            <input type="checkbox" id="faf"/><option value="faf">From a Friend</option>
+                            </div> -->
+
+                        <div>
+                            <label for="medium" class="label-title">What Motivates You To Learn?</label>
+                            <textarea type="text" placeholder="Type Your Motivation Here"></textarea><br/>
+                        </div>
+
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+             </section>
+        </main>
+        </div>
+    </body>
+</html>
